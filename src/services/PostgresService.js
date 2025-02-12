@@ -1,6 +1,6 @@
 const { Pool } = require('pg');
-const { InvariantError } = require('../ecxeptions/InvariantError');
-const { NotFoundError } = require('../ecxeptions/NotFoundError');
+const InvariantError = require('../ecxeptions/InvariantError');
+const NotFoundError = require('../ecxeptions/NotFoundError');
 
 class PostgresService {
   constructor() {
